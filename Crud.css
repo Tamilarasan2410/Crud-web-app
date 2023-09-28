@@ -1,0 +1,43 @@
+body > table{
+    width: 80%;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td,th{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: aliceblue;
+}
+input[type=text],input[type=number]{
+    width: 100px;
+    padding: 8px 15px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form div.form-action-buttons{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+    margin-right: 4px;
+}
+label.validation-error{
+    color: rebeccapurple;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+
+}
